@@ -1,0 +1,92 @@
+{
+  "domains": {
+    "order": {
+      "policy": "domain/order/정책.md",
+      "scenario": "domain/order/시나리오.md",
+      "sources": [
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/order/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/order/**"
+      ],
+      "keywords": ["OrderStatus", "OrderValidator", "OrderService", "WithdrawOrderUseCase", "CreateOrderUseCase"],
+      "enums": ["OrderStatus", "OrderMethod"]
+    },
+    "cart": {
+      "policy": "domain/cart/정책.md",
+      "sources": [
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/cart/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/cart/**"
+      ],
+      "keywords": ["CartValidator", "CartService", "CartLineItem"],
+      "enums": ["OptionGroupType"]
+    },
+    "ticket": {
+      "policy": "domain/ticket/정책.md",
+      "scenario": "domain/ticket/시나리오.md",
+      "sources": [
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/ticket_item/**",
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/issuedTicket/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/ticket_item/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/issuedTicket/**"
+      ],
+      "keywords": ["IssuedTicketValidator", "TicketItemValidator", "IssuedTicketStatus", "TicketPayType"],
+      "enums": ["IssuedTicketStatus", "TicketPayType", "TicketType"]
+    },
+    "event": {
+      "policy": "domain/event/정책.md",
+      "scenario": "domain/event/시나리오.md",
+      "sources": [
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/event/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/event/**"
+      ],
+      "keywords": ["EventValidator", "EventStatus", "EventService"],
+      "enums": ["EventStatus"]
+    },
+    "host": {
+      "policy": "domain/host/정책.md",
+      "scenario": "domain/host/시나리오.md",
+      "sources": [
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/host/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/host/**"
+      ],
+      "keywords": ["HostValidator", "HostRole", "HostService"],
+      "enums": ["HostRole"]
+    },
+    "user": {
+      "policy": "domain/user/정책.md",
+      "scenario": "domain/user/시나리오.md",
+      "sources": [
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/user/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/user/**"
+      ],
+      "keywords": ["OauthProvider", "AccountRole", "UserService"],
+      "enums": ["OauthProvider", "AccountRole"]
+    },
+    "coupon": {
+      "policy": "domain/coupon/정책.md",
+      "sources": [
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/coupon/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/coupon/**"
+      ],
+      "keywords": ["CouponCampaign", "IssuedCoupon", "DiscountType"],
+      "enums": ["DiscountType", "CouponStockType"]
+    },
+    "settlement": {
+      "policy": "domain/settlement/정책.md",
+      "sources": [
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/settlement/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/settlement/**"
+      ],
+      "keywords": ["EventSettlement", "SettlementStatus"],
+      "enums": ["SettlementStatus"]
+    },
+    "comment": {
+      "policy": "domain/comment/정책.md",
+      "sources": [
+        "DuDoong-Domain/src/main/java/band/gosrock/domain/domains/comment/**",
+        "DuDoong-Domain/src/main/kotlin/band/gosrock/domain/domains/comment/**"
+      ],
+      "keywords": ["CommentValidator", "CommentService"],
+      "enums": []
+    }
+  }
+}
