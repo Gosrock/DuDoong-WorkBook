@@ -1,0 +1,58 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ClaudeReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:Describe*",
+        "elasticloadbalancing:Describe*",
+        "rds:Describe*",
+        "rds:ListTagsForResource",
+
+        "cloudwatch:GetMetricData",
+        "cloudwatch:ListMetrics",
+        "cloudwatch:DescribeAlarms",
+        "logs:GetLogEvents",
+        "logs:FilterLogEvents",
+        "logs:DescribeLogGroups",
+        "logs:DescribeLogStreams",
+
+        "s3:ListBucket",
+        "s3:GetBucketLocation",
+
+        "ecs:Describe*",
+        "ecs:List*",
+        "ecr:Describe*",
+        "ecr:List*",
+
+        "elasticache:Describe*",
+
+        "route53:ListHostedZones",
+        "route53:ListResourceRecordSets",
+        "acm:ListCertificates",
+        "acm:DescribeCertificate",
+
+        "wafv2:ListWebACLs",
+        "wafv2:GetWebACL",
+        "wafv2:ListRules",
+
+        "ce:GetCostAndUsage",
+        "ce:GetCostForecast",
+
+        "health:DescribeEvents",
+        "health:DescribeEventDetails",
+
+        "iam:ListUsers",
+        "iam:ListRoles",
+        "iam:GetPolicy",
+
+        "sns:ListTopics",
+        "sns:ListSubscriptions",
+        "sqs:ListQueues",
+        "sqs:GetQueueAttributes"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
