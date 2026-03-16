@@ -16,6 +16,9 @@ PM/PO 없이 디자이너+개발자 팀이 운영하며, Claude가 PM 역할을 
 - **GitHub Org**: https://github.com/Gosrock
 - **백엔드**: DuDoong-Backend (Java → Kotlin 마이그레이션 중)
 - **프론트**: DuDoong-Front (Next.js)
+- **Figma**: https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업
+  - 주요 페이지: `v0.9` (page id: `10:3`)
+  - Figma 링크 패턴: `?node-id={ID에서 콜론을 하이픈으로}&m=dev`
 
 ## 역할 (Claude as PM)
 
@@ -37,7 +40,7 @@ DuDoong-WorkBook/
 ├── templates/          # 태스크 템플릿
 ├── sync/               # 주간 싱크 로그
 ├── domain/             # 도메인별 정책 + UseCase 시나리오
-├── flow/               # 사용자 플로우
+├── flow/               # 사용자 플로우 + Figma 화면 맵 + 네비게이션 + 디자인 시스템
 ├── overview/           # 서비스 전체 개요
 ├── infra/              # 인프라/배포
 ├── ops/                # 운영
@@ -67,6 +70,17 @@ DuDoong-WorkBook/
 - Notion 페이지 읽기: `node tools/notion-reader.mjs <url>`
 - 첫 실행 시 브라우저 로그인 필요 (세션 자동 저장)
 - `notion-auth.json`은 .gitignore 처리됨
+
+### Figma 디자인 싱크
+- Figma MCP (`mcp__figma-desktop__*`)로 디자인 화면 접근 가능
+- 디자인 싱크 리포트: `sync/design-sync-{날짜}.md`
+- 화면 인벤토리 + 에픽 매핑: `flow/figma-screen-map.md`
+- 네비게이션 구조: `flow/앱-네비게이션-구조.md`
+- 디자인 시스템 컴포넌트: `flow/디자인-시스템-컴포넌트.md`
+- Figma ID는 반드시 클릭 가능한 링크로 작성 (디자이너가 바로 이동 가능하게)
+  - 예: `[215:2902](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=215-2902&m=dev)`
+- 태스크 파일에 `## Figma 연결` 섹션으로 관련 화면 연결
+- 디자이너 요청은 GitHub 이슈로 생성 (WorkBook 리포에)
 
 ### 문서 작성 원칙
 - 개발자가 아닌 사람도 이해할 수 있는 자연어로 작성
