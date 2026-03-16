@@ -1,6 +1,6 @@
 # Figma v0.9 화면 맵
 
-> Figma 페이지: **v0.9** (page id: `10:3`)
+> Figma 페이지: **v0.9** (page id: [10:3](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=10-3&m=dev))
 > 마지막 업데이트: 2026-03-17
 
 이 문서는 Figma 디자인 화면과 사용자 플로우를 연결합니다.
@@ -25,7 +25,7 @@ Figma에서 해당 화면을 찾으려면 **Figma ID**로 검색하세요.
 │                                                      │
 │  하단탭: HOME | HOSTING | TICKET | MY                  │
 └─────────────────────────────────────────────────────┘
-Figma ID: 212:2017
+Figma ID: [212:2017](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=212-2017&m=dev)
 ```
 
 **태그 드롭다운 (#44, Figma 215:2716)**:
@@ -63,7 +63,7 @@ Figma ID: 212:2017
 │                                                      │
 │  하단: [💬] [📩 티켓 구매하기]                           │
 └─────────────────────────────────────────────────────┘
-Figma ID: 215:2902
+Figma ID: [215:2902](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=215-2902&m=dev)
 ```
 
 **공연 상세 v2 (concert_detail_v2, Figma 276:4154)**:
@@ -106,7 +106,7 @@ Figma ID: 215:2902
 │  하단: A option ticket  [-] 3 [+]  ₩6,000             │
 │  [다음]                                               │
 └─────────────────────────────────────────────────────┘
-Figma ID: 215:3005
+Figma ID: [215:3005](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=215-3005&m=dev)
 ```
 
 ```
@@ -129,7 +129,7 @@ Figma ID: 215:3005
 │                                                      │
 │  [결제하기]                                            │
 └─────────────────────────────────────────────────────┘
-Figma ID: 215:3074
+Figma ID: [215:3074](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=215-3074&m=dev)
 
 변형:
 - #58 (268:4703): 쿠폰할인 섹션 추가 ("선택된 쿠폰 (1) -2,000 원")
@@ -148,7 +148,7 @@ Figma ID: 215:3074
 │  결제계좌  [복사]  3333-20-4299811                      │
 │  예금주              김동주                              │
 └─────────────────────────────────────────────────────┘
-Figma ID: 215:3143
+Figma ID: [215:3143](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=215-3143&m=dev)
 ```
 
 ---
@@ -179,7 +179,7 @@ Figma ID: 215:3143
 │  └──┘ 수량: 1매                                       │
 │       16,000원          [승인거절] [공연종료]             │
 └─────────────────────────────────────────────────────┘
-Figma ID: 215:3212
+Figma ID: [215:3212](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=215-3212&m=dev)
 
 상태 뱃지: 입금대기, 승인완료, 승인거절, 공연예정, 공연종료
 ```
@@ -209,7 +209,7 @@ Figma ID: 215:3212
 │                                                      │
 │  [목록]                                               │
 └─────────────────────────────────────────────────────┘
-Figma ID: 270:6082
+Figma ID: [270:6082](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=270-6082&m=dev)
 ```
 
 **주문완료 탭 구조 (#64-sub, Figma 270:5968)**:
@@ -246,7 +246,7 @@ Figma ID: 270:6082
 │                                                      │
 │  하단탭: HOME | HOSTING | TICKET | MY                  │
 └─────────────────────────────────────────────────────┘
-Figma ID: 215:3419
+Figma ID: [215:3419](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=215-3419&m=dev)
 ```
 
 ---

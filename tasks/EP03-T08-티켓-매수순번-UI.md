@@ -37,5 +37,10 @@ updated: 2026-03-15
 - [ ] 매수와 순번 정보가 가독성 있는 크기/위계로 디자인에 반영된다
 - [ ] 기존 대비 정보 인지 속도가 개선됨을 디자인 리뷰에서 확인한다
 
+## Figma 연결
+- **티켓 목록**: #49 (Figma [215:3212](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=215-3212&m=dev)) — "수량: 3매" 텍스트 있으나 작게 표시
+- **주문 상세 v2**: #65 (Figma [270:6082](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=270-6082&m=dev)) — "티켓번호: T1032, T1033, T1034" 개별 번호 표시
+- ⚠️ 개선된 매수/순번 강조 디자인은 아직 없음 → 디자이너 작업 필요
+
 ## 의존성
 - Design 완료 후 FE 착수
