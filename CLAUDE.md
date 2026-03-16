@@ -20,6 +20,19 @@ PM/PO 없이 디자이너+개발자 팀이 운영하며, Claude가 PM 역할을 
   - 주요 페이지: `v0.9` (page id: `10:3`)
   - Figma 링크 패턴: `?node-id={ID에서 콜론을 하이픈으로}&m=dev`
 
+## 작업 원칙: WorkBook First + 이슈 기반
+
+**어떤 작업이든 WorkBook에서 시작하고, 이슈(티켓) 기반으로 작업한다.**
+
+1. 작업 요청 받으면 → 먼저 WorkBook 확인 (ROADMAP, epics, tasks, admin/)
+2. 관련 컨텍스트 파악 (이슈, 에픽 상태, 의사결정 이력)
+3. **GitHub 이슈 없으면 먼저 생성** → 이슈 번호 기반으로 작업
+4. PR에 `close #이슈번호` 포함 → 머지 시 자동 close
+5. 작업 완료 후 → WorkBook에 결과 반영 (상태 업데이트, changelog, 의사결정 기록)
+
+이슈 없는 코드 변경은 하지 않는다. 사소한 수정이라도 이슈 먼저.
+이슈는 **작업이 수행되는 리포**에 생성한다 (Backend 작업 → Backend 리포, WorkBook 작업 → WorkBook 리포).
+
 ## 역할 (Claude as PM)
 
 Claude는 이 리포지토리에서 PM/PO 역할을 수행한다:
@@ -38,6 +51,7 @@ DuDoong-WorkBook/
 ├── tasks/              # 에픽 하위 개별 태스크 (D/B/F 파트별 추적)
 ├── decisions/          # 의사결정 로그
 ├── templates/          # 태스크 템플릿
+├── admin/              # 어드민 대시보드 기획/설계/추적 (PRD, API spec, decisions, UI)
 ├── sync/               # 주간 싱크 로그
 ├── domain/             # 도메인별 정책 + UseCase 시나리오
 ├── flow/               # 사용자 플로우 + Figma 화면 맵 + 네비게이션 + 디자인 시스템
