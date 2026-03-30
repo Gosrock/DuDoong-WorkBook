@@ -1,7 +1,7 @@
 # Figma v0.9 화면 맵
 
 > Figma 페이지: **v0.9** (page id: [10:3](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=10-3&m=dev))
-> 마지막 업데이트: 2026-03-22
+> 마지막 업데이트: 2026-03-29
 
 이 문서는 Figma 디자인 화면과 사용자 플로우를 연결합니다.
 Figma에서 해당 화면을 찾으려면 **Figma ID**로 검색하세요.
@@ -444,6 +444,7 @@ Figma 336:5467
 | [324:4723](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=324-4723&m=dev) | 옵션 선택하기 v2 | 예매 |
 | [324:4908](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=324-4908&m=dev) | 결제하기 v2 | 예매 |
 | [352:5534](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=352-5534&m=dev) | 결제하기 v2 (변형) | 예매 |
+| [362:5491](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=362-5491&m=dev) | **주문 완료 확인 모달** — "입금하셨나요?" 다이얼로그 (입금자명/금액/계좌 표시) | 예매 (신규) |
 | [327:4210](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=327-4210&m=dev) | 주문목록 v2 (리스트) | 주문 |
 | [348:4970](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=348-4970&m=dev) | 주문목록 v3 (카드, 승인대기) | 주문 |
 | [349:5151](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=349-5151&m=dev) | 주문목록 v3 (카드, 승인완료) | 주문 |
@@ -462,12 +463,16 @@ Figma 336:5467
 
 | Figma ID | 화면 | 카테고리 |
 |----------|------|---------|
-| [336:4762](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=336-4762&m=dev) | 호스팅 센터 | 진입점 |
-| [336:4617](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=336-4617&m=dev) | 대시보드 | 공연관리 |
-| [336:5467](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=336-5467&m=dev) | 대시보드 (초기) | 공연관리 |
-| [336:5678](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=336-5678&m=dev) | 공연 정보 (기본) | 공연관리 |
-| [336:5844](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=336-5844&m=dev) | 공연 정보 (상세, 에디터) | 공연관리 |
+| [356:10424](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=356-10424&m=dev) | 호스팅 센터 (등록 공연 list) | 진입점 |
+| [356:10525](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=356-10525&m=dev) | 대시보드 | 공연관리 |
+| ~~336:5467~~ | ~~대시보드 (초기)~~ | ~~노드 삭제/이동됨~~ |
+| ~~336:5678~~ | ~~공연 정보 (기본)~~ | ~~노드 삭제/이동됨~~ |
+| ~~336:5844~~ | ~~공연 정보 (상세, 에디터)~~ | ~~노드 삭제/이동됨~~ |
 | [262:3970](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=262-3970&m=dev) | 티켓 관리 | 공연관리 |
+| [357:12403](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=357-12403&m=dev) | **예매자 관리 — 주문 탭** | 공연관리 (신규) |
+| [357:13694](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=357-13694&m=dev) | **예매자 관리 — 발급 티켓 탭** | 공연관리 (신규) |
+| [357:14501](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=357-14501&m=dev) | **승인 거절 다이얼로그** | 공연관리 (신규) |
+| [374:9640](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=374-9640&m=dev) | **호스트 홈 만들기** (placeholder) | 호스트 프로필 (신규) |
 | [190:7105](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=190-7105&m=dev) | 필수 체크리스트 | 공연등록 |
 | [190:7772](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=190-7772&m=dev) | 기본정보 입력 (레거시) | 공연등록 |
 | [190:6276](https://www.figma.com/design/0c9gqvU1azjuaCYMUaYePb/디자인-작업?node-id=190-6276&m=dev) | 공연준비홈 (empty) | 공연등록 |
@@ -494,12 +499,13 @@ Figma 336:5467
 | 매진 상태 (잔여 0석) | 구매 불가 상태 표시 | EP01-T02 | 🔴 P0 |
 | 결제 실패 / 에러 | 실패 시 사용자 안내 | EP01-T03 | 🔴 P0 |
 | 알림함 목록 | 알림 목록 상세 화면 | EP08 | 🟡 P1 |
-| 예매자 관리 | 호스트 어드민 탭 존재, 화면 없음 | EP04 | 🟡 P1 |
+| ~~예매자 관리~~ | ~~호스트 어드민 탭 존재, 화면 없음~~ | ~~EP04~~ | ✅ 디자인 완료 (357:12403, 357:13694) |
 | QR 체크인 | 호스트 어드민 탭 존재, 화면 없음 | EP04 | 🟡 P1 |
+| 알림톡 어드민 관리 | 템플릿/채널/발송/포인트 관리 화면 | EP06 | 🟡 P1 |
 | 로딩 스켈레톤 | 로딩 중 UX | 전체 | 🟡 P1 |
 | 빈 검색 결과 | 검색 결과 없을 때 안내 | 홈 | 🟡 P1 |
 | 티켓 선물하기 상세 | 선물 플로우 화면 | 신규 | 🟡 P1 |
 
 ---
 
-_Figma v0.9 페이지 기반 (2026-03-22). 화면 찾기: Figma에서 Cmd+F → ID 검색_
+_Figma v0.9 페이지 기반 (2026-03-29). 화면 찾기: Figma에서 Cmd+F → ID 검색_
